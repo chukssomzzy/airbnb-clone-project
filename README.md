@@ -20,7 +20,7 @@ The software architect oversees the system's design, ensuring all components int
 ### Product Owner
 The product owner possesses deep domain expertise and a clear vision for the application. They guide the product development lifecycle to ensure the final product meets user needs and delivers value. By aligning the team’s efforts with the product’s goals, they ensure the application solves real-world problems effectively and remains user-focused.
 
-## Techonology Stack 
+## Technology Stack 
 - Django: A high-level Python web framework used for building the RESTful API.
 - Django REST Framework: Provides tools for creating and managing RESTful APIs.
 - PostgreSQL: A powerful relational database used for data storage.
