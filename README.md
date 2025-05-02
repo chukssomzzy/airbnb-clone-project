@@ -29,3 +29,45 @@ The product owner possesses deep domain expertise and a clear vision for the app
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+## Database Design 
+
+### Entities 
+- User 
+- Properties 
+- Booking 
+- Reviews  
+- Payments
+- Amenities
+
+#### User 
+- firstname
+- lastname 
+- email 
+- password-hash 
+
+#### Properties 
+- location  
+
+#### Amenities 
+- properties_id 
+- number_of_rooms 
+
+#### Booking 
+- user-id 
+- property-id 
+- booking-day 
+- booking-duration 
+
+#### Payments 
+- property-id 
+- user-id 
+- amount 
+- payment-id 
+
+#### Reviews 
+- property-id 
+- user-id 
+- review 
+- rating 
+
