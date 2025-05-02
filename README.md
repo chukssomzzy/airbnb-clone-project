@@ -96,3 +96,11 @@ The product owner possesses deep domain expertise and a clear vision for the app
 7. Database Optimizations
     - Indexing: Implement indexes for fast retrieval of frequently accessed data.
     - Caching: Use caching strategies to reduce database load and improve performance.
+
+### API Security 
+- Authentication:
+    This verifies the identity of users basically answering the question "who are you?" is done either with JWT or by providing a username and password, JWT token, API keys, tokens which is used to validate there identity against a trusted source databases.  
+- Authorization:
+    This verifies what the user can do in application after authentication. After the user login the application it answer the question "what can the authenticated user do?". This can be implemnented with RBAC (Role Based Access Control), ABAC (Attribute Based Access Control). guest can view listinig and book stays. Hosts can manage there listing and book stay. Attribute based access control depends on attribute like location, booking status, listing ownership to control access to this resource. so maybe  only people in a particular location can review  a property, only host can update listing etc. 
+- Rate Limiting: 
+    This limit the number of API request or requests a client can make to a given resource to prevent abuse, ensure fair usage and protect server resources. 
