@@ -103,4 +103,10 @@ The product owner possesses deep domain expertise and a clear vision for the app
 - Authorization:
     This verifies what the user can do in application after authentication. After the user login the application it answer the question "what can the authenticated user do?". This can be implemnented with RBAC (Role Based Access Control), ABAC (Attribute Based Access Control). guest can view listinig and book stays. Hosts can manage there listing and book stay. Attribute based access control depends on attribute like location, booking status, listing ownership to control access to this resource. so maybe  only people in a particular location can review  a property, only host can update listing etc. 
 - Rate Limiting: 
-    This limit the number of API request or requests a client can make to a given resource to prevent abuse, ensure fair usage and protect server resources. 
+    This limit the number of API request or requests a client can make to a given resource to prevent abuse, ensure fair usage and protect server resources.
+
+### CI/CD Pipeline 
+    This is an automated process used in software development used for streamline building, testing and deploying code. It ensures changes to a codebase is consitent, reliable and quickly deployed to production. 
+#### Tools 
+    - Github Actions: This is a CI/CD platform integrated into github, used to automate testing, deployment of code . 
+    - Docker: This is a Containerization tools used to package application dependency together to ensure consistency, reproduciblilty accross different environments.  
